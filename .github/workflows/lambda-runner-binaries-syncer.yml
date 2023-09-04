@@ -21,7 +21,7 @@ jobs:
         working-directory: modules/runner-binaries-syncer/lambdas/runner-binaries-syncer
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Install dependencies
         run: yarn install
       - name: Run prettier
